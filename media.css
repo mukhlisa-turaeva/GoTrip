@@ -1,0 +1,114 @@
+@media (max-width: 1200px) {
+    .container
+    {
+        max-width: 960px;
+    }
+
+    nav .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px) {
+    .container
+    {
+        max-width: 720px;
+    }
+
+    nav .container {
+        justify-content: center;
+        column-gap: 20px;
+        padding-bottom: 15px;
+    }
+
+    .about .container {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about__box p {
+        margin-left: 0;
+    }
+
+    .catalog .container {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .cat__box p {
+        margin-top: 15px;
+    }
+
+    .contact__box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact__title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .container
+    {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 594px) {
+    .container
+    {
+        max-width: 100%;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .two p {
+        position: absolute;
+        z-index: 99;
+        text-align: center;
+        top: 140px;
+    }
+
+    .three  {
+        margin-top: 50px;
+    }
+
+    .four {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container
+    {
+        max-width: 100%;
+    }
+
+    nav .container {
+        padding-top: 15px;
+    }
+
+    .list li {
+        padding: 36px 15px;
+    }
+
+    .baner__desc {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .baner__desc {
+        font-size: 20px;
+    }
+}
